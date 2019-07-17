@@ -55,8 +55,8 @@ $(document).ready(function() {
     var crystalValue = $(this).attr("data-crystalvalue");
     crystalValue = parseInt(crystalValue);
     console.log(crystalValue);
-    // Add the crystalValue to the user's "counter" which is a global variable.
-    // Every click, from every crystal adds to the global counter.
+   //shift left<<<
+    
     counterTotal += crystalValue;
     $("#counter-total").text(counterTotal);
 
